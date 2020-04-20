@@ -10,35 +10,41 @@ margin: auto;
 padding: 15px;
 }
 
-#me {
- margin: auto;
-}
-
-#name{
-  display: inline-block;
-  margin: 0 auto;
-}
-
-#number{
-  display: inline-block;
-}
-
 h1 {
-  text-decoration: underline;
+  color:#DC143C;
+  padding-left:30%;
 }
-h2 {
-  text-decoration: underline;
+h3,h4 {
+  color:#000000;
 }
-a {
+a:link {
+  color:#483D8B;
   text-decoration: none;
 }
-  a:hover {
-    font-weight: bold;
-  }
+ a:hover {
+  color:#DC143C;
+  text-decoration: underline;
+}
 
-  .class="underline"{
-    text-decoration: underline;
-  }
-  .class="green"{
-    color: green;
-  }
+.contact, .main-content{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contact{
+  width: 25%;
+}
+
+.main-content{
+  padding:0 5%;
+  width: 64%;
+}
+
+.about h3{
+  margin-top:0;
+}
+
+footer {
+  margin-left:30%;
+}
+
