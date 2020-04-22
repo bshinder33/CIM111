@@ -1,5 +1,5 @@
 html{
-  background-color: #EEE8AA;
+  background-color: #FFFFFF;
 }
 header{
   background-color: #FF0000;
@@ -12,8 +12,7 @@ h1{
   text-decoration: none;
 }
 main{
-  background-color: #000000;
-  border: 1px #FF0000;
+  background-color: #FF0000;
 }
 footer{
   background-color: #FF0000;
@@ -25,7 +24,7 @@ nav{
   font-size: 30px;
 }
 a{
-  color: #FFFFFF;
+  color: #000000;
   text-decoration: none;
   display: inline-block;
   font-size: 30px;
@@ -84,4 +83,3 @@ p{
 }
 img{
   width: 250px;
-}
