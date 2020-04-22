@@ -1,5 +1,5 @@
  html{
-  background-color: rgba(0, 0, 255, .75);
+  background-color: #EEE8AA;
 }
 header{
   background-color: #000000;
@@ -24,7 +24,7 @@ nav{
   font-size: 30px;
 }
 a{
-  color: white;
+  color: #FFFFFF;
   text-decoration: none;
   display: inline-block;
   font-size: 30px;
