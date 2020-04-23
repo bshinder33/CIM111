@@ -12,6 +12,7 @@ font-size: 20px;
 main{
   margin:5% auto;
   width: 80%;
+  padding:0 5%;
 }
 
 h1,h3,h4 {
@@ -34,19 +35,12 @@ a:link {
   text-decoration: underline;
 }
 
-.contact, .main-content{
+.contact{
   display: inline-block;
   vertical-align: top;
-}
-
-.contact{
   width: 25%;
 }
 
-.main-content{
-  padding:0 5%;
-  width: 64%;
-}
 
 .about h3{
   margin-top:0;
