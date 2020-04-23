@@ -23,7 +23,6 @@ h1,h3,h4 {
 
 h1 {
   color:#DC143C;
-  padding-left:30%;
 }
 h3,h4 {
   color:#000000;
@@ -44,7 +43,5 @@ a:link {
 }
 
 
-.about h3{
-  margin-top:0;
-}
+
 
