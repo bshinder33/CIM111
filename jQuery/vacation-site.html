@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
+  <head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta charset="utf-8">
+    <title>Israel Vacation</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Experiencing Israel</h1>
+    </header>
+
+    <main>
+      <div class="about">
+      <h3>About Israel:</h3>
+        <p>Israel is a country in Western Asia, with borders touching Lebanon, Syria, Jordan, the Palestinian territories and Egypt. It is located on the southeastern shore of the Mediterranean Sea and the northern shore of the Red Sea. The rich history, diversity and cultural landmarks makes Israel an incredible destination for traveling.</p>
+      </div>
+
+      <h2 id = "header2"></h3>
+      <div class="locations">
+        <div class="jerusalem">
+          <h3>Jerusalem</h3>
+          <p>Jerusalem is the capital of Israel and one of the oldest cities in the world. It is an extremely holy city for many religions including Judaism, Islam and Christianity. Sacred sites include The Western Wall, The al-Aqsa Mosque and The Church of the Holy Sepulchre.</p>
+        </div>
+
+        <div class="tel-aviv">
+          <h3>Tel Aviv:</h3>
+          <p>Tel Aviv is the second most populous city in Israel after Jerusalem. The city is Israel's economic hub and is also known for it's lively nightlife and beautiful beaches! .</p>
+        </div>
+
+        <div class="haifa">
+          <h3>Haifa:</h3>
+          <p>Haifa is the third most populous city in Israel. It is known for it's tremendous beaches and is also the center of the Bahá'í faith.</p>
+        </div>
+
+        <div class="dead-sea">
+          <h3>The Dead Sea:</h3>
+          <p>The Dead Sea is located in the Jordan Rift Valley. As it's surface and shores are 430.5 metres below sea level, it is Earth's lowest elevation on land!</p>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="list">
+          <h3>Important Things to Bring</h3>
+          <ul>
+            <li>Camera</li>
+            <li>Water Bottle</li>
+            <li>Backpack</li>
+            <li>Raincoat</li>
+            <li>Your Passport</li>
+          </ul>
+        </div>
+
+        <div class="supplies">
+          <img class="pics" src="images/bottle.jpg" alt="">
+          <img class="pics" src="images/camera.jpg" alt="">
+          <img class="pics" src="images/backpack.jpg" alt="">
+          <img class="pics" src="images/passport.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="photos">
+        <h2>Photo Gallery</h2>
+        <div id="nanogallery2">
+          Photos
+        <div>
+      </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link  href="https://unpkg.com/nanogallery2@2.4.2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script  type="text/javascript" src="https://unpkg.com/nanogallery2@2.4.2/dist/jquery.nanogallery2.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        jQuery("#nanogallery2").nanogallery2( {
+                       // ### gallery settings ###
+                       thumbnailHeight:  150,
+                       thumbnailWidth:   150,
+
+
+                       // ### gallery content ###
+                       items: [
+                           { src: 'images/deadsea.JPG', srct: 'images/deadsea.JPG', title: 'The Dead Sea' },
+                           { src: 'images/haifa.JPG', srct: 'images/haifa.JPG', title: 'Haifa - Bahá'í Gardens' },
+                           { src: 'images/jerusalem.JPG', srct: 'images/jerusalem.JPG', title: 'Jerusalem - Western Wall, al-Aqsa Mosque' },
+                           { src: 'images/telaviv.JPG', srct: 'images/telaviv.JPG', title: 'Tel Aviv' },
+                        
+                         ]
+                     });
+      });
+      </script>
+  </body>
+</html>
