@@ -7,12 +7,14 @@ body {
 background-color: #E0FFFF;
 font-family: 'Arial',sans-serif;
 font-size: 20px;
+width: 600px;
+margin: auto;
+padding: 15px;
 }
 
 main{
   margin:5% auto;
   width: 80%;
-  padding:0 5%;
 }
 
 h1,h3,h4 {
