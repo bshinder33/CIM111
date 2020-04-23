@@ -1,0 +1,62 @@
+html{
+  background-color: white;
+  }
+
+  header {
+    background-image: linear-gradient (to right, white, blue, white);
+    text-align: center;
+    border-style: double;
+    margin-bottom: 7px;
+  }
+
+  .about{
+    background-color: white;
+    border-style: solid;
+    border-color: blue;
+  }
+
+  .grid {
+    background-color: white;
+    border-style: solid;
+    border-color: blue;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    }
+
+  .supplies {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+  }
+
+  img{
+    width: 130px;
+    margin: auto;
+    display: block;
+  }
+
+  .locations{
+    background-color: white;
+    border-style: solid;
+    border-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 7px;
+  }
+
+  .tel-aviv{
+    margin-left: 6px;
+  }
+
+  .dead-sea{
+    margin-left: 6px;
+  }
+
+  .pics{
+    width: 100px;
+  }
+
+  .header2{
+    background-color: white;
+
+  }
