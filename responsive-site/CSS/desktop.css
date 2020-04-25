@@ -1,86 +1,310 @@
- html{
-  background-color: #FFFFFF;
+media (min-width: 768px) {
+  #contact .contact-address,
+  #contact .contact-phone,
+  #contact .contact-email {
+    padding: 20px 0;
+  }
+
+  #contact .contact-phone {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
 }
-header{
-  background-color: #FF0000;
-  text-align: center;
-  margin: 0 auto;
-  font-size: 24pt;
+
+@media (min-width:992px) {
+  #testimonials .testimonial-item p {
+    width: 80%;
+  }
+  
+.mrg-t--30
+{
+margin-top:-30px;
+}  
 }
-h1{
-  color: #000000;
-  text-decoration: none;
+
+
+@media (min-width: 1024px) {
+  #header #logo {
+display: block;
+
+text-align: center;
+
+padding-top: 5px;
+  }
+#header.header-scrolled #logo
+{
+margin-top:0;
 }
-main{
-  background-color: #FF0000;
+
+  #intro p {
+  }
+
+  #intro .carousel-control-prev,
+  #intro .carousel-control-next {
+    width: 5%;
+  }
+
+  #nav-menu-container {
+    padding-right: 0px;
+  }
 }
-footer{
-  background-color: #FF0000;
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+
+  #header #logo h1 {
+    font-size: 28px;
+  }
+
+  #header #logo img {
+  }
+
+#intro h2 {
+    font-size: 26px;
 }
-nav{
-  color: #000000;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 30px;
+   #intro p {
+    font-size: 16px;
+    padding: 17px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0;
+    width: 65%;
+  }
+#intro .carousel-content {
+    padding: 40% 0 0;
+    overflow: hidden;
 }
-a{
-  color: #000000;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 30px;
+
+.carousel-content .s_txt {
+    margin-top: 13px;
+    display: block;
 }
-a:hover{
-  background-color: #C0C0C0;
-  color: #FF0000;
-  padding: 6px;
+
+.process-section h2 {
+    top: 80%;
+}	
+
+.process-section {
+    padding-left: 70px;
 }
-p{
-  font-size: 8pt;
+
+.design-img {
+    bottom: -25% !important;
 }
-.grid-container{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
+
+.finalise-img {
+    bottom: 29% !important;
 }
-.grid-item{
-  background-color: #FFFFFF;
-  border: 1px #FF0000;
-  padding: 20px;
-  text-align: center;
+
+.social ul li {
+    padding: 10px 7px;
+    font-size: 13px;
+}  
+
+.ul-3x li
+{
+width:49%;
+float:left;
 }
-.grid-container1{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 10px;
+
 }
-.grid-item1{
-  background-color: #FFFFFF;
-  border: 1px #FF0000;
-  padding: 20px;
-  text-align: center;
+
+@media(max-width:1024px)
+{
+.form-chk
+{
+    width: 49%;
 }
-.grid-container2{
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 10px;
 }
-.grid-item2{
-  background-color: #FFFFFF;
-  border: 1px #FF0000;
-  padding: 20px;
-  text-align: center;
+
+
+@media(max-width:992px)
+{
+#nav-menu-container {
+    display: none;
+  }
+
+  #mobile-nav-toggle {
+    display: inline;
+  }
+
+.carousel-content .btns {
+    margin-top: -6px;
+}  
+.box4 a {
+    pointer-events: none;
+}   
+
+#intro h2 {
+    font-size: 30px;
 }
-.Photos{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 10px;
+
+.carousel-content .s_txt
+{
+    margin-top: 28px;
 }
-.grid-item3{
-  background-color: #FFFFFF;
-  border: 1px #FF0000;
-  padding: 20px;
-  text-align: center;
+
+#intro p {
+    font-size: 18px;
 }
-img{
-  width: 300px;
+
+.carousel-content .btns {
+    margin-top: 13px;
+}
+}
+
+@media(max-width:768px)
+{
+.carousel-content .s_txt {
+    margin-top: 15px;
+}
+
+.carousel-content .btns {
+    margin-top: -7px;
+}
+
+.box4 a {
+    pointer-events: auto;
+}
+}
+
+@media(max-width:767px)
+{
+.form-chk
+{
+    width: 100%;
+}
+}
+
+@media(max-width:700px)
+{
+.cy_logo_box {
+    width: 119px;
+}
+}
+
+@media(max-width:500px)
+{
+.main-section {
+    padding: 0px 0 40px;
+}    
+    
+.cy_logo_box {
+    width: 130px;
+top: -22px;
+padding:0;
+}
+#intro .carousel-item {
+    height: 470px;
+}	
+#intro .carousel-content {
+    padding: 69% 0 0;
+}
+#intro h2 {
+    font-size: 17px;
+    display: block;
+    margin-left: 15px;
+    margin-bottom: 0;
+background: rgba(49, 68, 89, 0.7);	
+}
+
+.carousel-content .s_txt {
+    margin-top: 0;
+}
+
+#intro p {
+    font-size: 15px;
+    padding: 5px;
+	    background: rgba(213, 172, 99, 0.8);
+    overflow: hidden;
+    display: inline-block;
+    margin: 0;
+    width: auto;
+    margin-left: 15px;
+}
+.carousel-content .s_txt {
+    margin-top: 0;
+}
+
+.heading h2 {
+    font-size: 35px;
+}
+
+.process-section {
+    padding-left: 0;
+}
+.process-section h2
+{
+display:none;
+}
+
+.mob-display
+{
+display:block;
+}
+
+.process-section .col-md-6:nth-child(1)
+{
+border-right:none;
+border-bottom:1px solid #ddd;
+}
+
+.process-section .col-md-6:nth-child(2)
+{
+border-bottom:1px solid #ddd;
+}
+
+.process-section .col-md-6:nth-child(3)
+{
+border-right:none;
+border-bottom:1px solid #ddd;
+}
+
+.header-scrolled .cy_logo_box {
+    width: 96px;
+}
+
+#header.header-scrolled #logo img {
+    width: 90px;
+}
+.carousel-content .btns {
+    margin-top: -6px;
+    margin-left: 15px;
+}
+
+.btns .btn2
+{
+    padding: 10px 18px;
+}
+
+.ul-3x li
+{
+width:100%;
+float:none;
+}
+}
+
+@media(max-width:410px)
+{
+.social > ul li {
+    padding: 10px 2px;
+    font-size: 13px;
+}
+
+.social ul:nth-child(2) li
+{
+padding:0px 7px 5px;
+}
+}
+
+.con1 ul li:before
+{
+display:none;
+}
+
+.footer-links a
+{
+color:#1393d0;
 }
