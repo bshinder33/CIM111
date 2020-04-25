@@ -1,118 +1,285 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Toronto Raptors</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="Toronto Raptors" name="keywords">
+  <meta content="Toronto Raptors" name="description">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Ben Shinder">
-    <meta name="description" content="Responsive Website">
-    <meta name="keywords" content="intro, html, web">
-    <meta name="viewport" content="inital-scale=1">
-    <title>Toronto Raptors</title>
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
 
-    <link rel="stylesheet" href="CSS/desktop.css" media="only screen and (min-width: 600px)">
-    <link rel="stylesheet" href="CSS/mobile.css" media="only screen and (max-width: 600px)">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/desktop.css" rel="stylesheet">
+   
+</head>
 
 
-  </head>
+<body id="home">
 
-  <body>
-    <header><h1>The Toronto Raptors<h1>
-      <nav> |
-        <a href="#History">History</a> |
-        <a href="#Greatest Players">Greatest Players</a> |
-        <a href="#Info">Info</a> |
-        <a href="#Photos">Photos</a> |
-      </nav>
-    </header>
-    <main>
+  <!--==========================
 
-      <div class="grid-container1">
-        <div class="grid-item1">
-            <a name="History"></a>
-        <h3>History</h3> <ul>
+    Header
+
+  ============================-->
+
+  <div class="wrapper">
+<header id="header">
+    <div class="container">
+
+      <div id="logo" class="cy_logo_box">
+         <a href="index.php"><img src="img/logo.png" alt="" title="" /></a>
+      </div>
+
+      <nav id="nav-menu-container" class="main-nav float-right">
+        <ul class="nav-menu">
+          <li><a href="#history" id="">History</a></li>
+          <li><a href="#players" id="">Greatest Players</a></li>
+          
+          <li><a href="#info" id="">Info</a></li>
+          
+          <li><a href="#photos" id="">Photos</a></li>
+          
+
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header>
+ </div>
+
+
+
+
+  <main id="main">
+
+   <!--==========================
+
+      Span1 Section
+
+    ============================-->
+    
+    
+    <div class="main-section" id="history" style="background: #f7f7fb;">
+    	<div class="container">
+			
+            <div class="row">
+            
+            	<div class="col-sm-12 col-md-6 col-lg-6">
+                	
+                    
+                	<div class="heading"><h3>History</h3>
+                      
+                       </div>
+            		
+                    <ul>
         <li>The Toronto Raptors are a professional Canadian basketball team established in 1995.
-        <li>They play at Scotiabank Arena in Toronto, Ontario. Their colors are red, black and white. </li>
-        <li>The franchise has won 1 NBA championship, with the only 1 in 2019 by defeating the Golden State Warriors in 6 games.</li> </ul></div>
-        <div class="grid-item1"> <img src="https://silverbirdtv.com/wp-content/uploads/2019/06/Raptors-Celebrating-First-NBA-Title.jpg" alt="Raptors">
-          <p><b>Source: SilverbirdTV</b>
-          https://silverbirdtv.com/wp-content/uploads/2019/06/Raptors-Celebrating-First-NBA-Title/</p>
-         </div>
-      </div>
-
-      <div class="grid-container">
-        <div class="grid-item">
-          <a name="Greatest Players"></a>
-          <h3>Greatest Players</h3> <ul>
-          <li>Kyle Lowry #7</li>
-          <li>Kawhi Leonard #2</li>
-          <li>DeMar DeRozan #10</li>
-          <li>Vince Carter #15</li>
-          <li>Chris Bosh #4</li>
-        </ul> </div>
-        <div class="grid-item">
-          <h3>The Future</h3> <ul>
-          <li>Pascal Siakam #43</li>
-          <li>Fred Vanvleet #23</li>
-          <li>OG Anunoby #3</li>
-          <li>Terence Davis #0</li>
-        </ul> </div>
-        <div class="grid-item">
-          <h3>Major Influencers</h3> <ul>
-          <li>Drake - Rapper</li>
-          <li>Masai Ujiri - General Manager</li>
-          <li>Vince Carter - Future Hall of Famer</li>
-          <li>Nav Bhatia - "Super Fan"</li>
-        </ul> </div>
-      </div>
-
-      <div class="grid-container2">
-        <div class="grid-item2">
-          <a name="Info"></a>
-          <h3>Franchise Records</h3>
-          <ul>
-          <li>Games: DeMar DeRozan - 675</li>
-          <li>Points: DeMar DeRozan - 13296</li>
-          <li>Assists: Kyle Lowry - 3905</li>
-          <li>Hall of Famers: Hakeem Olajuwon, Tracy McGrady</li>
-        </ul> </div>
-        <div class="grid-item2"> <h3>Biggest Rivalries</h3> <ul>
-          <li>Philadelphia 76ers</li>
-          <li>Cleveland Cavaliers</li>
-          <li>Brooklyn Nets</li>
-          <li>Boston Celtics</li>
-          <li>Milwaukee Bucks</li>
-        </ul> </div>
-      </div>
-
-    </main>
-    <footer>
-    <div class="Photos">
-      <div class="grid-item3">
-        <a name="Photos"></a>
-        <h3>Photo Gallery</h3>
-        <img src="https://images.wsj.net/im-73810?width=1280&size=1" alt="Kawhi Shot">
-        <p><b>Source: Wall Street Journal </b>
-
-          https://images.wsj.net/im-73810/</p>
-        <img src="https://media2.s-nbcnews.com/j/newscms/2019_24/2890151/190610-drake-toronto-raptors-cs-138p_49c18a24a16bf18f8ab2d14bafe149b5.nbcnews-fp-1200-630.jpg" alt="Drake">
-        <p><b>Source: NBC News </b>
-          https://media2.s-nbcnews.com/j/newscms/2019_24/2890151/190610-drake-toronto-raptors-cs/
-        </p>
-      </div>
-      <div class="grid-item3"> <h3>Quotes</h3>
-      <blockquote cite="https://www.successories.com/iquote/author/18218/kyle-lowry-quotes/1">
-        "My brother always told me not to fear anything. You can't go out there on the court and be afraid to fail, so I just go out there and play as hard as I can, no matter what the outcome is." - Kyle Lowry
-      </blockquote>
-      <blockquote cite="https://sports.yahoo.com/pascal-siakam-provides-plenty-of-powerful-messages-after-winning-most-improved-player-033933831.html">
-        "I know it’s hard. It feels like... it’s not possible most of the time. I just want to tell you to believe in your dreams and go out there and work hard for it and I promise you it will happen." - Pascal Siakam
-      </blockquote>
-      <img src="https://www.nba.com/raptors/sites/raptors/files/4-raptors-logos-756.jpg" alt="Raptors Logos">
-      <p><b>Source: NBA.com </b>
-       https://www.nba.com/raptors/sites/raptors/files/4-raptors-logos-756/
-
+        </li><li>They play at Scotiabank Arena in Toronto, Ontario. Their colors are red, black and white. </li>
+        <li>The franchise has won 1 NBA championship, with the only 1 in 2019 by defeating the Golden State Warriors in 6 games.</li> </ul>
+                    
+                    
+                </div>
+                
+                
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                	<img src="img/Raptors-Celebrating-First-NBA-Title.jpg"/>
+                    <p><small>Source: <a href="https://silverbirdtv.com/wp-content/uploads/2019/06/Raptors-Celebrating-First-NBA-Title/" target="_blank">SilverbirdTV</a></small></p>
+                </div>
+                
+                
+            </div>
+            
+        </div>
     </div>
+    
+    
+    <div class="main-section" id="players">
+    	<div class="container">
+			
+            <div class="row">
+            
+            	<div class="col-sm-12 col-md-4 col-lg-4">
+                	
+                    
+                	<div class="heading"><h3>Greatest Players</h3></div>
+            		
+                    <ul>
+                      <li>Kyle Lowry #7</li>
+                      <li>Kawhi Leonard #2</li>
+                      <li>DeMar DeRozan #10</li>
+                      <li>Vince Carter #15</li>
+                      <li>Chris Bosh #4</li>
+                    </ul>
+                    
+                </div>
+                
+                
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                	
+                    
+                	<div class="heading"><h3>The Future</h3></div>
+            		
+                    <ul>
+                          <li>Pascal Siakam #43</li>
+                          <li>Fred Vanvleet #23</li>
+                          <li>OG Anunoby #3</li>
+                          <li>Terence Davis #0</li>
+                        </ul>
+                    
+                </div>
+                
+                
+                <div class="col-sm-12 col-md-4 col-lg-4">
+                	
+                    
+                	<div class="heading"><h3>Major Influencers</h3></div>
+            		
+                    <ul>
+                      <li>Drake - Rapper</li>
+                      <li>Masai Ujiri - General Manager</li>
+                      <li>Vince Carter - Future Hall of Famer</li>
+                      <li>Nav Bhatia - "Super Fan"</li>
+                    </ul>	
+                    
+                </div>
+                
+                
+                
+            </div>
+            
+        </div>
     </div>
-  </footer>
-  </body>
+    
+    
+    <div class="main-section" id="info" style="background: #f7f7fb;">
+    	<div class="container">
+			
+            <div class="row">
+            
+            	<div class="col-sm-12 col-md-6 col-lg-6">
+                	
+                	<div class="heading"><h3>Franchise Records</h3>
+                      
+                       </div>
+           
+                    <ul>
+                      <li>Games: DeMar DeRozan - 675</li>
+                      <li>Points: DeMar DeRozan - 13296</li>
+                      <li>Assists: Kyle Lowry - 3905</li>
+                      <li>Hall of Famers: Hakeem Olajuwon, Tracy McGrady</li>
+                    </ul>
+                </div>
+                
+                
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                	
+                	<div class="heading"><h3>Biggest Rivalries</h3>
+                      
+                       </div>
+           
+                    <ul>
+                      <li>Philadelphia 76ers</li>
+                      <li>Cleveland Cavaliers</li>
+                      <li>Brooklyn Nets</li>
+                      <li>Boston Celtics</li>
+                      <li>Milwaukee Bucks</li>
+                    </ul>
+                    
+                </div>
+                
+                
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    <div class="main-section" id="photos">
+    	<div class="container">
+			
+            <div class="row">
+            
+            	<div class="col-sm-12 col-md-12 col-lg-12">
+                	<div class="heading text-center"><h3>Photo Gallery</h3></div>
+                </div>
+                
+            </div>
+            
+            <div class="row">
+            	<div class="col-sm-12 col-md-4 offset-md-2 text-center">
+                	<img src="img/im-73810.jpg"/>
+                    <p><small>Source: <a href="https://images.wsj.net/im-73810/" target="_blank">Wall Street Journal</a></small></p>
+                </div>
+                <div class="col-sm-12 col-md-4 text-center">
+                	<img src="img/190610-drake-toronto-raptors-cs-138p_49c18a24a16bf18f8ab2d14bafe149b5.nbcnews-fp-1200-630.jpg"/>
+                    <p><small>Source: <a href="https://media2.s-nbcnews.com/j/newscms/2019_24/2890151/190610-drake-toronto-raptors-cs/" target="_blank">NBC News</a></small></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+     <div class="main-section" id="cansec" style="background: #f7f7fb;">
+    	<div class="container">
+			
+            <div class="row">
+            
+            	<div class="col-sm-12 col-md-12 col-lg-12">
+                	
+                	<div class="heading text-center"><h3>Quotes</h3>
+                      
+                       </div>
+           
+                    
+                </div>
+                
+                
+                <div class="col-sm-12 col-md-12 col-lg-12">
+					
+                    <blockquote>	
+                	<p>"My brother always told me not to fear anything. You can't go out there on the court and be afraid to fail, so I just go out there and play as hard as I can, no matter what the outcome is."</p>
+                    <footer><em>- Kyle Lowry</em></footer>
+                    </blockquote>
+                    
+                    <blockquote>	
+                	<p>"I know it's hard. It feels like... it's not possible most of the time. I just want to tell you to believe in your dreams and go out there and work hard for it and I promise you it will happen."</p>
+                    <footer><em>- Pascal Siakam</em></footer>
+                    </blockquote>
+                    
+                </div>
+                
+                <div class="col-sm-12 text-center">
+                	<img src="img/4-raptors-logos-756.webp"/>
+                    <p><small>Source: <a href="https://www.nba.com/raptors/sites/raptors/files/4-raptors-logos-756/" target="_blank">NBA.com</a></small></p>
+                </div>
+                
+                
+            </div>
+            
+        </div>
+    </div>
+      
+   
+
+  </main>
+	
+
+ 
+
+</body>
 
 </html>
