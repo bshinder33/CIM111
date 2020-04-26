@@ -1,38 +1,15 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>5 Simple Steps for Fitness Success!</title>
-
-
-
-
-    <style>
-      .box{
-        width: 500px;
-        height: 50px;
-        background-color: #F0FFF0;
-      }
-
-
-
-      .font{
-          font-size: 25px;
-          color: #000000;
-          text-align: center;
-          margin-left: 0 auto;
-          margin-right: 0 auto;
-
-
-
-}
-
-
-
-    </style>
+    <link rel="stylesheet" href="css/fit.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro"> rel="stylesheet">
   </head>
 
-  <body>
+<body>
     <h1 id="textChange">5 Simple Steps for Fitness Success!</h1>
 
     <img align=left>
@@ -65,7 +42,7 @@
       <li id="show">Click To See Tip</li>
       <li id="hide">Hide Tip</li>
       <li id="toggle">Toggle Tip</li>
-      <li id="show1">Click To See A Fun Fact</li>
+      <li id="show1">Click To See Another Tip</li>
     </ul>
 
     <div id="tip" class="font">
@@ -135,20 +112,20 @@
           $("#info").css("background-color", "transparent");
         });
         $("#image1").click(function(){
-          $("#imageRecepticle").html('<img src="images/fit7.jpg" width="300">');
+          $("#imageRecepticle").html('<img src="images/fit8.jpg" width="300">');
         });
         $("#image2").click(function(){
-          $("#imageRecepticle").html('<img src="images/fit6.jpg" width="300">');
+          $("#imageRecepticle").html('<img src="images/fit9.jpg" width="300">');
         });
 
 
         $("#show1").click(function(){
-          $("#funfact").hide();
+          $("#tip2").hide();
 
 
         });
         $("#show1").click(function(){
-          $("#funfact").show();
+          $("#tip2").show();
 
 
         });
