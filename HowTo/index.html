@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>5 Simple Steps for Fitness Success!</title>
+
+
+
+
+    <style>
+      .box{
+        width: 500px;
+        height: 50px;
+        background-color: #F0FFF0;
+      }
+
+
+
+      .font{
+          font-size: 25px;
+          color: #000000;
+          text-align: center;
+          margin-left: 0 auto;
+          margin-right: 0 auto;
+
+
+
+}
+
+
+
+    </style>
+  </head>
+
+  <body>
+    <h1 id="textChange">5 Simple Steps for Fitness Success!</h1>
+
+    <img align=left>
+  <img src="images/.jpg"height="300" alt="" class="left">
+  <img src="images/.jpg"height="300" alt="" class="left">
+  <img src="images/.jpg"height="300" alt="" class="left">
+
+
+    <h2 id="info">Mouse over to see the steps!</h2>
+<h2 id="info">Step #1</h2>
+    <div id="recepticle"></div>
+
+
+
+    <h2 id="info">Step #2</h2>
+    <div id="recepticle1"></div>
+    <h2 id="info">Step #3</h2>
+    <div id="recepticle2"></div>
+    <h2 id="info">Step #4</h2>
+    <div id="recepticle3"></div>
+    <h2 id="info">Step #5</h2>
+    <div id="recepticle4"></div>
+
+    <h2>Click To View More Images</h2>
+    <img id="image1" src="https://farm7.staticflickr.com/2353/2238571207_bb58b4fdfc_o.jpg" width="150">
+    <img id="image2" src="https://farm4.staticflickr.com/7004/6632552129_053767710e_o.jpg" width="150">
+    <div id="imageRecepticle"></div>
+
+    <ul>
+      <li id="show">Click To See Tip</li>
+      <li id="hide">Hide Tip</li>
+      <li id="toggle">Toggle Tip</li>
+      <li id="show1">Click To See A Fun Fact</li>
+    </ul>
+
+    <div id="tip" class="font">
+        Coffee is the second most traded commodity on earth.</div>
+
+
+  <div id="tip2" class="font">
+    To make sure your coffee maker gets hot enough, run it without any coffee in the hopper and use a thermometer to measure the temperature. If you can, try to measure the temperature during the brewing process, as the water temperature will drop as it passes through the hopper and into the carafe beneath.
+
+
+
+
+
+    </div>
+
+    <div class="box"></div>
+
+    <div class="box"></div>
+
+    <div class="box"></div>
+
+
+
+    <!-- Local jquery script -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Remote version -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        //All jquery code should be placed below
+        $(".box").hide();
+        $("#tip").hide();
+        $("#tip2").hide();
+        $("body").css("background-color", "silver");
+        $("h1").css("color", "Black");
+        $("h1").css("font-size", "50px");
+        $("#textChange").css("background-color", "yellow");
+        $("#textChange").html("5 Simple Steps for Fitness Success!");
+        $("#textChange").click(function(){
+          $("body").css("background-color", "orange");
+        });//End of textChange click
+
+
+        $("#info").mouseenter(function(){
+          $("#recepticle").html("<em>Step 1: Exercise daily for at least one hour. Whether it is simply walking or lifting heavy weight, any sort of physical activity is good. </em>");
+
+
+
+          $("#recepticle1").html("<em>Step 2: Eat the right foods and portion each meal. Stay away from the sweets as much as possible. Reach out to a nutrition specialist for help creating a meal plan that suits you.</em>");
+          $("#recepticle2").html("<em>Step 3: Keep track of calories and food intake per day. This will help in planning out your physical exercising to achieve the best results possible.</em>");
+          $("#recepticle3").html("<em>Step 4: Be sure to get sleep. It is extremely important to get enough sleep to recharge your body. Six to eight hours of sleep should be your target. </em>");
+          $("#recepticle4").html("<em>Step 5: Stay motivated. Set personal goals to keep yourself accountable and stay positive. This will help you push yourself to your limits. </em>");
+
+
+
+
+          $("#info").css("background-color", "white");
+
+        });
+        $("#info").mouseleave(function(){
+          $("#recepticle").html("");
+          $("#recepticle1").html("");
+          $("#recepticle2").html("");
+          $("#recepticle3").html("");
+          $("#recepticle4").html("");
+          $("#info").css("background-color", "transparent");
+        });
+        $("#image1").click(function(){
+          $("#imageRecepticle").html('<img src=".jpg" width="300">');
+        });
+        $("#image2").click(function(){
+          $("#imageRecepticle").html('<img src=".jpg" width="300">');
+        });
+
+
+        $("#show1").click(function(){
+          $("#funfact").hide();
+
+
+        });
+        $("#show1").click(function(){
+          $("#funfact").show();
+
+
+        });
+
+
+
+
+
+
+
+        $("#hide").click(function(){
+          $("#tip").hide();
+
+
+        });
+        $("#show").click(function(){
+          $("#tip").show();
+
+
+        });
+
+        $("#toggle").click(function(){
+          $("#tip").toggle(1000);
+        });
+      });// End of document ready
+
+
+
+
+
+    </script>
+
+
+    <img src="images/.jpg"height="300" alt="" class="left">
+    <img src="images/.jpg"height="300" alt="" class="center">
+    <img src="images/.jpg"height="300" alt="" class="right">
+
+
+
+
+
+  </body>
+
+
+</html>
