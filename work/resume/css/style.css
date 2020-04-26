@@ -5,6 +5,23 @@ html {
 	body {
 		height: 100%;
 		background-color: #ffffff;
+		
+	}
+
+
+/* Main */
+
+	#main {
+	
+		padding: 2.5em 3em 3em 3em ;
+		background: #ffffff;
+		border-radius: 4px;
+		cursor: default;
+		max-width: 100%;
+		opacity: 1;
+		position: relative;
+		text-align: center;
+		width: 75em;
 		color: #414f57;
 		font-family: 'Montserrat', sans-serif;
 		font-size: 14pt;
@@ -13,6 +30,19 @@ html {
 		letter-spacing: 1px;
 		text-transform: uppercase;
 	}
+
+		#main .avatar {
+			position: relative;
+			display: block;
+			margin-bottom: 1.5em;
+		}
+
+			#main .avatar img {
+				display: block;
+				margin: 0 auto;
+				border-radius: 100%;
+				box-shadow: 0 0 0 1.5em #ffffff;
+			}
 
 a {
 		color: inherit;
@@ -74,33 +104,6 @@ a {
 	h6 {
 		font-size: 1em;
 	}
-/* Main */
-
-	#main {
-	
-		padding: 2.5em 3em 3em 3em ;
-		background: #ffffff;
-		border-radius: 4px;
-		cursor: default;
-		max-width: 100%;
-		opacity: 1;
-		position: relative;
-		text-align: center;
-		width: 75em;
-	}
-
-		#main .avatar {
-			position: relative;
-			display: block;
-			margin-bottom: 1.5em;
-		}
-
-			#main .avatar img {
-				display: block;
-				margin: 0 auto;
-				border-radius: 100%;
-				box-shadow: 0 0 0 1.5em #ffffff;
-			}
 
 /* Footer */
 
