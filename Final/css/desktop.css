@@ -110,7 +110,7 @@ a{
 }
 
 .about3{
-  background-color: #20b2aa;
+  background-color: #76c1b3;
   border-style: groove;
   padding: 5px;
   margin-bottom: 10px;
@@ -120,22 +120,22 @@ a{
 
 #resume:hover{
   font-size: 17px;
-  background-color: #000080;
+  background-color: #a1a1a7;
 }
 
 #responsive:hover{
   font-size: 17px;
-  background-color: #000080;
+  background-color: #a1a1a7;
 }
 
 #howto:hover{
   font-size: 17px;
-  background-color: #000080;
+  background-color: #a1a1a7;
 }
 
 #jquery:hover{
   font-size: 17px;
-  background-color: #000080;
+  background-color: #a1a1a7;
 }
 
 #click1:hover{
