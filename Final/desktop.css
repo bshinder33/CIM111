@@ -172,15 +172,21 @@ a{
   background-color: #CCCCCC;
 }
 
-.address{
-  margin-top: 10px;
-  text-align: center;
-  background-color: #F0F8FF;
-  width: auto;
-  border-style: grove;
-  padding: 5px;
-  box-shadow: 0 0 5px 5px #aaaaaa;
-}
+#footer .copyright {
+			margin: 0;
+			padding: 0;
+			font-size: 0.9em;
+			list-style: none;
+		}
+
+			#footer .copyright li {
+				display: inline-block;
+				margin: 0 0 0 0.45em;
+				padding: 0 0 0 0.85em;
+				border-left: solid 1px rgba(255, 255, 255, 0.5);
+				line-height: 1;
+			}
+
 
 button:hover{
   cursor: pointer;
