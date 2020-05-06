@@ -94,6 +94,7 @@ a{
 .center{
   width: 200px;
   margin-left: 75px;
+  border-radius: 8px;
 }
 
 .about2{
