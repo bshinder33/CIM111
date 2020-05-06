@@ -1,1 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Benjamin Shinder">
+    <meta name="description" content="Final Portfolio Website">
+    <meta name="keywords" content="intro, html, web">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="desktop.css" media="only screen and (min-width: 600px)">
+    <link rel="stylesheet" href="mobile.css" media="only screen and (max-width: 600px)">
+    <title>Benjamin Shinder's Web Portfolio</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-49KRPSX1ML"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
+    gtag('config', 'G-49KRPSX1ML');
+  </script>
+  </head>
+
+
+  <body>
+
+
+    <header>
+      <nav>
+          <a id="link1" href="#about">About</a>
+          <a id="link2" href="#websites">Websites</a>
+          <a id="link4" href="https://forms.gle/tCGsPQqZnnqVNigEA" target="_blank">Contact Me</a>
+          <a id="link5" href="https://www.linkedin.com/in/benjamin-shinder-56b99712a/" target="_blank">LinkedIn Profile</a>
+      </nav>
+    </header>
+
+
+    <main>
+        <a name="about"></a>
+        <div class="about1">
+          <div class="aboutme">
+        <h3>About Me:</h3>
+        <ul>
+          <li>University of Miami Senior</li>
+          <li>Major: Sport Administration</li>
+          <li>Minor: Business Law</li>
+          <li>Self-motivated, open-minded and determined university student aspiring to gain hands-on experience in the sports industry.</li>
+        </ul>
+
+        <p>This portfolio is a collection of the work I have completed during the Spring 2020 semester in CIM111 (Cinema and Interactive Media) at the University of Miami as well as my studies in Sport Administration and Business Law.</p>
+      </div>
+
+        <div class="pictureofme">
+          <img src="ben_profile.jpg" alt="Portfolio Picture" class="center">
+        </div>
+      </div>
+
+        <div class="about2">
+          <div class="coursework">
+          <h3>Courses:</h3>
+          <ul>
+            <li>Web Lab</li>
+            <li>Introduction to Sport Administration</li>
+            <li>Legal Aspects of Sport</li>
+            <li>Sport Marketing</li>
+            <li>Sport Psychology</li>
+            <li>Leadership in Sport</li>
+            <li>Issues in Sport</li>
+            <li>Negotiation</li>
+            <li>Managing the Legal Factor</li>
+          </ul>
+        </div>
+        <div class="hobbies">
+          <h3>Hobbies & Interests</h3>
+            <ul>
+              <li>Hockey, basketball, football</li>
+              <li>Traveling</li>
+              <li>Animals; especially dogs!</li>
+              <li>Analyzing sports statistics and player evaluation</li>
+              <li>Music; Classic rock is my favorite!</li>
+            </ul>
+          </div>
+      </div>
+
+      <div class="about3">
+        <a name="websites"></a>
+        <h3>My Web Lab Projects</h3>
+        <div class="l1">
+          <hr>
+          <h4>Resume</h4>
+          <p>A brief resume project for an introduction to HTML and CSS.</p>
+          <a id="resume" href="https://bshinder33.github.io/CIM111/work/resume/index.html" target="_blank">Click to see!</a>
+        </div>
+        <div class="l2">
+          <hr>
+          <h4>Responsive Site</h4>
+          <p>A responsive website project on my favorite basketball team, the Toronto Raptors, that adjusts CSS when viewing on a desktop compared to a mobile device.</p>
+          <a id="resume" href="https://bshinder33.github.io/CIM111/responsive-site/index.html" target="_blank">Click to see!</a>
+        </div>
+        <div class="l3">
+          <hr>
+          <h4>jQuery Site</h4>
+          <p>A how-to website on fitness providing an introduction to jQuery and interactivity.</p>
+          <a id="resume" href="https://bshinder33.github.io/CIM111/HowTo/index.html" target="_blank">Click to see!</a>
+        </div>
+      </div>
+
+        <address class="address">
+          Univeristy of Miami <br>
+          Coral Gables, FL
+        </address>
+
+    </main>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("blockquote").hide();
+        $("button").click(function(){
+          $("blockquote").fadeIn(2000);
+        });
+      });
+    </script>
+
+
+
+
+
+  </body>
+
+</html>
