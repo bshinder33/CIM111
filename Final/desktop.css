@@ -4,6 +4,16 @@ html{
   background-color: #E9E9E9;
 }
 
+header{
+  width: 70%;
+
+}
+
+main{
+  width: 70%;
+  margin: 0 auto;
+}
+
 
 nav{
   display: inline-block;
