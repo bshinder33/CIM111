@@ -72,9 +72,6 @@ a{
   cursor: pointer;
 }
 
-#ast{
-  font-size: 12px;
-}
 
 .about1{
   background-color: #F0F8FF;
@@ -90,13 +87,14 @@ a{
   display: inline-block;
 }
 
-.center{
-  width: 175px;
-  margin-left: 140px;
-}
 
 .hobbies{
   display: grid;
+}
+
+.center{
+  width: 200px;
+  margin-left: 75px;
 }
 
 .about2{
@@ -109,10 +107,6 @@ a{
 }
 
 .coursework{
-  display: grid;
-}
-
-.experience{
   display: grid;
 }
 
