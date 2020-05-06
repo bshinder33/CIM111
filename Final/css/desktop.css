@@ -50,46 +50,45 @@ a{
 
 #link1:hover{
   font-size: 20px;
-  color: #181515;
+  color: #cbe3db;
   cursor: pointer;
 }
 
 #link2:hover{
   font-size: 20px;
-  color: #181515;
+  color: #cbe3db;
   cursor: pointer;
 }
 
 #link4:hover{
   font-size: 20px;
-  color: #181515;
+  color: #cbe3db;
   cursor: pointer;
 }
 
 #link5:hover{
   font-size: 20px;
-  color: #181515;
+  color: #cbe3db;
   cursor: pointer;
 }
 
-
 .about1{
-  background-color: #F0F8FF;
-  border-style: grove;
+  background-color: #9bcaba;
+  border-style: groove;
+  display: flex;
   padding: 5px;
-  display: grid;
   margin-bottom: 10px;
   margin-top: 10px;
   box-shadow: 0 0 5px 5px #aaaaaa;
 }
 
 .aboutme{
-  display: inline-block;
+  width: 50%
 }
 
 
 .hobbies{
-  display: grid;
+  width: 50%
 }
 
 .center{
@@ -98,33 +97,26 @@ a{
 }
 
 .about2{
-  background-color: #E3DFCA;
-  border-style: ridge;
-  display: grid;
+  background-color: #7ec8bf;
+  border-style: groove;
+  display: flex;
   padding: 5px;
   margin-bottom: 10px;
   box-shadow: 0 0 5px 5px #aaaaaa;
 }
 
 .coursework{
-  display: grid;
+  width: 50%
 }
 
 .about3{
-  background-color: #FBF7EB;
-  border-style: grove;
+  background-color: #20b2aa;
+  border-style: groove;
   padding: 5px;
-  display: grid;
   margin-bottom: 10px;
   box-shadow: 0 0 5px 5px #aaaaaa;
 }
 
-.reviews{
-  background-color: #E3DACA;
-  padding: 5px;
-  border-style: ridge;
-  box-shadow: 0 0 5px 5px #aaaaaa;
-}
 
 #resume:hover{
   font-size: 17px;
